@@ -1,0 +1,92 @@
+.body{
+    width:100vw;
+    height:90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction:column;
+    width: 30vw;
+    height: 40vh;
+    margin-bottom: 5px;
+    border-radius: 1em;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color:#C5D3E8;
+}
+
+.submit-button{
+    margin-top: 10%;
+    width: 26vw;
+    height: 5vh;
+    
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    font-size: 1rem;
+    box-sizing: border-box;
+    background-color:#A6AEBF;
+}
+
+.submit-button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #E4E0E1;
+    
+}
+
+a{
+    colour:blue;
+    text-decoration: none;
+}
+a:visited{
+    colour: blue;
+}
+Link{
+    colour: blue;
+    text-decoration: none;
+}
+.containerTwo{
+    display: flex;
+    flex-direction:row;
+    width: 30vw;
+    height: 8vh;
+    margin-top: 2px;
+    border-radius: 1em;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    background-color:#C5D3E8;
+}
+
+input{
+    width:26vw;
+    height: 5vh;
+        padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-top:5px
+}
+.passwordLabel{
+    display:flex;
+    justify-content: space-between;
+}
+.forgotPassword{
+    display:flex;
+    justify-content:end;
+    margin-top: 5px;
+    
+}
+.usernameLabel{
+    margin-bottom:5px;
+}
