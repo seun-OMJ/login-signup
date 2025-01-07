@@ -31,7 +31,7 @@ export default function Login() {
                         <br></br>
                         <label className='passwordLabel' for="password">Password </label>
                         <input type="password" id="password" placeholder="Enter your password" value={password} onChange={(e) => setPassword(e.target.value)} required />
-                        <br></br><a className="forgotPassword" href='reset'>Forgot password? </a>
+                        <br></br><a className="forgotPassword" href='forgotpassword'>Forgot password? </a>
                     </div>
                     <button className='submit-button' type="submit" ><strong>Login</strong></button>
                 </form>

@@ -44,10 +44,25 @@
 input{
     width:26vw;
     height: 5vh;
-        padding: 0.75rem;
+    padding: 0.75rem;
     border: 1px solid #ccc;
     border-radius: 0.5em;
     font-size: 1rem;
     box-sizing: border-box;
-    margin-top:5px
+    margin-top:5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-text{
+    width:26vw;
+    height: 5vh;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    margin-top:5px;
+    justify-content: center;
+    align-items: center;
 }
