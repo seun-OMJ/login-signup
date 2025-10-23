@@ -8,10 +8,10 @@ CORS(app)
 
 # Database connection
 conn = psycopg2.connect(
-    host="localhost",
-    database="user_data",
-    user="postgres",
-    password="LoginData24"
+    host="placeholder",
+    database="placeholder",
+    user="placeholder",
+    password="placeholder"
 )
 cursor = conn.cursor(cursor_factory=RealDictCursor)
 
